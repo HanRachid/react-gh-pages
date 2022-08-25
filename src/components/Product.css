@@ -1,0 +1,31 @@
+.Products {
+    
+   outline:1px solid rgb(238, 235, 235);
+   background-color: #dfdfdf;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    box-shadow: 4px 4px #7e7b7b;
+    border-radius: 5px ;
+  }
+
+  .item-properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    color: #000000;
+    font-size: large;
+    font-weight: 1000;
+  }
+
+  .SKU{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .checkbox{
+    background-color: #999999;
+
+  }

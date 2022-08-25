@@ -1,0 +1,18 @@
+.HeaderAdd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonsAdd {
+  display: flex;
+  gap: 30px;
+  padding: 35px;
+  padding-right: 100px;
+}
+
+.titleAdd {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 20px;
+  color: rgb(238, 245, 245);
+}
