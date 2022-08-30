@@ -1,9 +1,9 @@
 .contains-products {
+  display: grid;
 
-    display: grid;
-    grid-template-columns:  repeat(auto-fill,minmax(200px, 2fr));
-    grid-auto-rows: auto;
-    gap : 35px;
-    margin-right: 30px;
-    margin : 80px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+  grid-auto-rows: auto;
+  gap: 35px;
+  margin-right: 30px;
+  margin: 80px;
 }

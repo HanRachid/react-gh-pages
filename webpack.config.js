@@ -3,16 +3,18 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   output: {
-    path: path.join(__dirname, "/dist"), 
-    filename: "bundle.js", 
+    path: path.join(__dirname, "/dist"),
+    filename: "bundle.js",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html", 
+      template: "src/index.html",
     }),
   ],
   devServer: {
-    port: 3030, 
+    host: "0.0.0.0",
+    port: 3030,
+    allowedHosts: ["all"],
   },
   module: {
     rules: [

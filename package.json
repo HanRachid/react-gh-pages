@@ -2,6 +2,7 @@
   "name": "task",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://hanrachid.github.io/scandiwebtask/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack serve --mode development",
@@ -23,6 +24,7 @@
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.54.5",
     "sass-loader": "^13.0.2",
